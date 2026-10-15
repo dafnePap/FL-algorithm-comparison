@@ -1,0 +1,9 @@
+myenv/
+testenv/
+venv/
+__pycache__/
+*.pyc
+data/*/raw/
+data/*/processed/
+results/
+plots/
