@@ -51,8 +51,8 @@ def main(args):
         os.mkdir(_DATASET_ROOT)
     if os.path.isdir(_PICKLES_DIR):
         os.system(f"rm -rf {_PICKLES_DIR}")
-    os.system(f"mkdir -p {_PICKLES_DIR}")
-
+    os.makedirs(_PICKLES_DIR, exist_ok=True)
+    
     client_num_in_total = args.client_num_in_total
     client_num_in_total = args.client_num_in_total
     ori_dataset, target_dataset = DATASET[args.dataset]
