@@ -1,1 +1,0 @@
-{"dataset": "mnist", "client_num_in_total": 10, "fraction": 0.9, "valset_ratio": 0.1, "test_ratio": 0.1, "s_iid": 0.0, "seed": 17, "emnist_split": "byclass", "type": "sample", "client_num_in_each_pickles": 10, "root": "C:\\Users\\dafnh\\Desktop\\final"}

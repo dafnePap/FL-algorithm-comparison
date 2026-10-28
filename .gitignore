@@ -1,9 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
 myenv/
 testenv/
 venv/
-__pycache__/
-*.pyc
+
+# Generated datasets
+mnist/
 data/*/raw/
 data/*/processed/
+data/*/pickles/
+
+# Generated configuration
+data/args.json
+
+# Results
 results/
 plots/
